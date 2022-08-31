@@ -1,7 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import React, { useEffect, useState } from 'react';
-import { fetchAsyncCountries, LoadCitiesApi } from '../redux/cities/cities';
+import { fetchAsyncCountries } from '../redux/cities/cities';
+import { LoadCitiesApi } from '../redux/cityDetails/cityDetails';
 
 function Cities() {
   const [citiesLoaded, setCitiesLoaded] = useState(false);
@@ -14,7 +15,7 @@ function Cities() {
     setCitiesLoaded(true);
   });
 
-  const citiesArray = useSelector((state) => state.cities.cityNames);
+  const citiesArray = useSelector((state) => state.cityNames);
 
   return (
     <div style={{}}>

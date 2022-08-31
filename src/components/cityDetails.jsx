@@ -1,10 +1,9 @@
 // import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import React from 'react';
-// import { LoadCitiesApi } from '../redux/cities/cities';
 
 function CityDetails() {
-  const citiesDetails = useSelector((state) => state.cities.cityDetails);
+  const citiesDetails = useSelector((state) => state.cityDetails);
 
   return (
     <div style={{ height: '100vh' }}>
