@@ -1,5 +1,32 @@
 .wrapper {
   width: 375px;
-  background-color: rgb(230, 98, 120);
+  background-color: rgb(241, 89, 114);
   margin: auto;
+}
+
+.cityLink {
+  color: #fff;
+  width: 170px;
+  height: 85px;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  text-align: right;
+  padding: 80px 10px 0 0;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 900;
+  border: 1px solid rgb(177, 121, 121);
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 25px;
+  color: #fff;
+  border: 1px solid rgb(206, 197, 197);
+}
+
+.detail:nth-child(odd) {
+  background-color: rgb(214, 69, 93);
 }

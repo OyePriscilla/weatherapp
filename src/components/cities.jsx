@@ -15,17 +15,21 @@ function Cities() {
   });
 
   const citiesArray = useSelector((state) => state.cities.cityNames);
+
   return (
-    <div style={{ }}>
+    <div style={{}}>
       {citiesArray.map((city, ind) => (
         <h2
           // eslint-disable-next-line react/no-array-index-key
           key={ind + 1}
-          style={{
-            width: '177px', height: '175px', backgroundColor: 'purple', display: 'inline-block', margin: '20px 5px 0 5px', textAlign: 'end',
-          }}
+          style={{ display: 'inline-block' }}
         >
-          <NavLink onClick={(e) => dispatch(LoadCitiesApi({ q: e.target.textContent }))} className="cityLink" style={{ textDecoration: 'none', color: '#fff' }} to={`/${city}`}>
+          <NavLink
+            onClick={(e) => dispatch(LoadCitiesApi({ q: e.target.textContent }))}
+            style={{ textDecoration: 'none', color: '#fff' }}
+            to={`/${city}`}
+            className="cityLink"
+          >
             {city}
           </NavLink>
         </h2>

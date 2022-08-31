@@ -25,7 +25,7 @@ const baseURL = 'https://api.openweathermap.org/data/2.5';
 
 export const fetchAsyncCountries = createAsyncThunk(GETCOUNTRIES, async () => {
   const res = await axios.get('https://countriesnow.space/api/v0.1/countries');
-  const data = res.data.data[154].cities;
+  const data = res.data.data[0].cities;
   return (data);
 });
 
