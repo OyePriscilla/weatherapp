@@ -1,24 +1,11 @@
-// import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import React from 'react';
-// import { LoadCitiesApi } from '../redux/cities/cities';
 
 function CityDetails() {
-  // const [citiesLoaded, setCitiesLoaded] = useState(false);
-  // const { query } = useParams();
-
-  // const dispatch = useDispatch();
-
-  // useEffect(() => {
-  //   if (citiesLoaded) return;
-  //   dispatch(LoadCitiesApi({ ...query }));
-  //   setCitiesLoaded(true);
-  // });
-
   const citiesDetails = useSelector((state) => state.cities.cityDetails);
 
   return (
-    <div style={{ height: '100vh' }}>
+    <div>
       { citiesDetails
       && (
       <div>
