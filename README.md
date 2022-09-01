@@ -30,45 +30,23 @@ Clone this repository on to your local PC
 
 * Once the files are on your machine, open the weatherapp folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
-## 🛠 Installation & Set Up
-
-### Create React App
-
-  npx create-react-app my-react-app
-
-## Available Scripts
-
 In the project directory, you can run:
+
+### `npm install` to install the dependencies.
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm test` Launches the test runner in the interactive watch mode.
 
 ## App Presentation
 https://www.loom.com/share/12b3f5f1beac44bda27b3895d203778e
 
 ## Live Demo
 [Demo Link](https://earnest-froyo-cd584e.netlify.app/)
-![weatherapp](https://iili.io/69940g.md.png)
+![weatherapp](https://i.ibb.co/bsk687s/localhost-3000-Aba-2.png)
 
 ## Authors
 
