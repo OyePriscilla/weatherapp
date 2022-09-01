@@ -63,10 +63,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Live Demo
+## App Presentation
+https://www.loom.com/share/12b3f5f1beac44bda27b3895d203778e
 
+## Live Demo
 [Demo Link](https://earnest-froyo-cd584e.netlify.app/)
-![weatherapp](https://user-images.githubusercontent.com/92553079/187064333-46909568-7a2f-4d43-aa0b-a6066f0edc26.PNG)
+![weatherapp](https://iili.io/69940g.md.png)
 
 ## Authors
 
