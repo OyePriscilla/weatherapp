@@ -13,7 +13,7 @@
   text-decoration: none;
   font-weight: 900;
   border: 1px solid rgb(177, 121, 121);
-  padding:5px 120px 5px 0;
+  padding:15px 120px 15px 0;
 }
 
 .detail {
@@ -32,4 +32,8 @@
 .detail span {
   font-weight: 900;
   font-size: 22px;
+}
+
+.cityHeader {
+  margin: 0;
 }
