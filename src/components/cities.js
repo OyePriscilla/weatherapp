@@ -17,8 +17,10 @@ function Cities() {
   const citiesArray = useSelector((state) => state.cities.cityNames);
   return (
     <div style={{}}>
+      <h2 style={{ color: '#fff', marginLeft: '20px' }}>List of Cities in Nigeria</h2>
       {citiesArray.map((city, ind) => (
         <h2
+          className="cityHeader"
           // eslint-disable-next-line react/no-array-index-key
           key={ind + 1}
           style={{ display: 'inline-block' }}
