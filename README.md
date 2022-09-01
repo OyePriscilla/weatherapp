@@ -1,6 +1,40 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ This weather App is created to show a list of weather informations for different cities in Nigeria.
+
+## Built With
+
+* HTML
+* CSS
+* JS
+
+## Framework
+
+* React
+
+## Getting Started
+
+Tools Needed
+
+* Text editor
+* Node.js
+* Gitflow
+
+Clone this repository on to your local PC
+
+* Click on the Code green button
+* By the right end of the read-only input containing the repository link click the clipboard icon to copy the link
+* In your local PC, open your terminal in the folder you would like to clone the repository into
+* Clone the repository with the command: git clone (copied link); like so: <https://github.com/OyePriscilla/weatherapp>
+* After the clone, type in the command cd weatherapp to access the directory on the terminal.
+
+* Once the files are on your machine, open the weatherapp folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
+
+## 🛠 Installation & Set Up
+
+### Create React App
+
+  npx create-react-app my-react-app
 
 ## Available Scripts
 
@@ -29,42 +63,33 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Live Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Demo Link](https://priscillaernestspacetravel.netlify.app/)
+![weatherapp](https://user-images.githubusercontent.com/92553079/187064333-46909568-7a2f-4d43-aa0b-a6066f0edc26.PNG)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Authors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+👤 **Oyebade Prisicilla**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* GitHub: [@OyePriscilla](https://github.com/OyePriscilla)
+* Twitter: [@Prisicilla](https://twitter.com/Prisicilla)
+* LinkedIn: [Priscilla](https://linkedin.com/in/oyepriscilla)
 
-## Learn More
+## Contibution
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions, issues, and feature requests are welcome!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to check the [issues page](../../issues/).
 
-### Code Splitting
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Hat tip to the person that reviewed my work! Thanks alot.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is MIT licensed.
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [Behance Ballhead Application](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
