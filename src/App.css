@@ -1,19 +1,15 @@
 .wrapper {
-  width: 375px;
-  background-color: rgb(241, 89, 114);
+  background-color: rgb(30, 6, 94);
   margin: auto;
 }
 
 .cityLink {
   color: #fff;
-  width: 342px;
   display: block;
   text-align: right;
   font-size: 24px;
   text-decoration: none;
   font-weight: 900;
-  border: 1px solid rgb(177, 121, 121);
-  padding: 15px;
 }
 
 .detail {
@@ -26,7 +22,7 @@
 }
 
 .detail:nth-child(odd) {
-  background-color: rgb(214, 69, 93);
+  background-color: rgb(59, 22, 158);
 }
 
 .detail span {
@@ -36,4 +32,14 @@
 
 .cityHeader {
   margin: 0;
+}
+
+input {
+  display: flex;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  margin: 10px auto;
 }

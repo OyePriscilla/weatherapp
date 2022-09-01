@@ -16,25 +16,25 @@ function CityDetails() {
         </div>
         <div className="detail">
           <h2>
-            Humidity
+            <i className="fa fa-adjust" />
           </h2>
           <span>{citiesDetails.humidity}</span>
         </div>
         <div className="detail">
           <h2>
-            Country Code
+            ISO
           </h2>
           <span>{citiesDetails.country}</span>
         </div>
         <div className="detail">
           <h2>
-            Wind Speed
+            <i className="fa fa-snowflake-o" />
           </h2>
           <span>{citiesDetails.speed}</span>
         </div>
         <div className="detail">
           <h2>
-            Temperature
+            <i className="fa fa-thermometer-empty" />
           </h2>
           <span>{citiesDetails.temp}</span>
         </div>
