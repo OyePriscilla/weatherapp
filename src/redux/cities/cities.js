@@ -60,8 +60,4 @@ export const LoadCitiesApi = createAsyncThunk(LOADAPI, async (searchParams) => {
   return (data);
 });
 
-export const cityStore = ((state) => state.cities.cityNames);
-
-export const cityInfo = ((state) => state.cityDetails);
-
 export default citiesReducer;
