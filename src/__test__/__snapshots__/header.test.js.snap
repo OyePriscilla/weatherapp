@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "justifyContent": "space-between",
+      "padding": "0 20px",
+    }
+  }
+>
+  <nav>
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": "48px",
+        }
+      }
+    >
+      <i
+        className="fa fa-angle-left"
+      />
+    </a>
+  </nav>
+  <h2
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": "28px",
+      }
+    }
+  >
+    Weather App
+  </h2>
+</div>
+`;

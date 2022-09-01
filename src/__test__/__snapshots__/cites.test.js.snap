@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for City should render 1`] = `
+<div
+  style={Object {}}
+>
+  <h2
+    style={
+      Object {
+        "color": "#fff",
+        "marginLeft": "20px",
+      }
+    }
+  >
+    List of Cities in Nigeria
+  </h2>
+</div>
+`;
