@@ -28,46 +28,23 @@ Clone this repository on to your local PC
 * Clone the repository with the command: git clone (copied link); like so: <https://github.com/OyePriscilla/weatherapp>
 * After the clone, type in the command cd weatherapp to access the directory on the terminal.
 
-* Once the files are on your machine, open the weatherapp folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
+* Once the files are on your machine, open the weatherapp folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps below:
 
-## 🛠 Installation & Set Up
-
-### Create React App
-
-  npx create-react-app my-react-app
-
-## Available Scripts
-
-In the project directory, you can run:
+### `npm install`
+To install the dependencies.
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in the development mode.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
+Builds the app for production to the `build` folder.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## [App Presentation](https://www.loom.com/share/3cc14cc219084d55b5e9bd1de6d00aa2)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## App Presentation
-https://www.loom.com/share/3cc14cc219084d55b5e9bd1de6d00aa2
-
-## Live Demo
-(https://earnest-froyo-cd584e.netlify.app/)
+## [Live Demo](https://earnest-froyo-cd584e.netlify.app/)
 
 ![weatherapp](https://i.ibb.co/JWZ3sZN/localhost-3000-1.png)
 
