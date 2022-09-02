@@ -69,7 +69,7 @@ https://www.loom.com/share/3cc14cc219084d55b5e9bd1de6d00aa2
 ## Live Demo
 (https://earnest-froyo-cd584e.netlify.app/)
 
-![weatherapp](https://iili.io/69940g.md.png)
+![weatherapp](https://i.ibb.co/JWZ3sZN/localhost-3000-1.png)
 
 ## Authors
 
