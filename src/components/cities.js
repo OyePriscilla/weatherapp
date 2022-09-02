@@ -51,9 +51,8 @@ function Cities() {
                   className="cityLink"
                 >
                   {city}
-                  <img src="https://i.ibb.co/th9z32D/download-2-removebg-preview.png" alt="ng-icon" width="30px" style={{ textAlign: 'center' }} />
                 </NavLink>
-
+                <img src="https://i.ibb.co/th9z32D/download-2-removebg-preview.png" alt="ng-icon" width="30px" style={{ textAlign: 'center' }} />
               </div>
             </div>
           ))}
