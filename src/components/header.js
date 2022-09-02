@@ -14,7 +14,7 @@ function Header() {
       </nav>
       <h2 style={{ fontSize: '18px', color: '#fff', width: '3%' }}>WEATHER</h2>
       <div style={{
-        fontSize: '18px', color: '#fff', marginLeft: '130px', marginRight: '150px',
+        fontSize: '18px', color: '#fff', marginLeft: '130px', marginRight: '20px',
       }}
       >
         <i className="fa fa-microphone" style={{ marginRight: '2px' }} />
