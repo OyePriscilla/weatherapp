@@ -1,13 +1,17 @@
 .wrapper {
   background-color: rgb(30, 6, 94);
-  margin: auto;
+}
+
+body {
+  background-color: rgb(30, 6, 94);
+  margin: auto auto;
 }
 
 .cityLink {
   color: #fff;
   display: block;
   text-align: right;
-  font-size: 24px;
+  font-size: 18px;
   text-decoration: none;
   font-weight: 900;
 }
@@ -43,3 +47,4 @@ input {
   font-weight: 900;
   margin: 10px auto;
 }
+
