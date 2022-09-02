@@ -27,7 +27,7 @@ function Cities() {
     <>
       <input type="text" onChange={handleInput} placeholder="Search Cities in Nigeria" />
       <div style={{
-        display: 'grid', gridTemplateColumns: '1fr 1fr', padding: '0px 150px', marginTop: '20px',
+        display: 'grid', gridTemplateColumns: '1fr 1fr', margin: '0 auto', width: '98%',
       }}
       >
         {citiesArray.filter((c) => {
