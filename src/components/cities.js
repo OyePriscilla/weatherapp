@@ -24,10 +24,10 @@ function Cities() {
 
   const citiesArray = useSelector((state) => state.cities.cityNames);
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <input type="text" onChange={handleInput} placeholder="Search Cities in Nigeria" />
       <div style={{
-        display: 'grid', gridTemplateColumns: '1fr 1fr', margin: '0 auto', width: '98%',
+        width: '98%',
       }}
       >
         {citiesArray.filter((c) => {
@@ -41,7 +41,9 @@ function Cities() {
               className="cityHeader"
             // eslint-disable-next-line react/no-array-index-key
               key={ind + 1}
-              style={{ display: 'inline-block', border: '1px solid rgb(206, 197, 197)', padding: '50px' }}
+              style={{
+                display: 'inline-block', border: '1px solid rgb(206, 197, 197)', padding: '4.5%', width: '40%', margin: '0 auto',
+              }}
             >
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
                 <NavLink
@@ -59,7 +61,7 @@ function Cities() {
 
       </div>
 
-    </>
+    </div>
   );
 }
 
