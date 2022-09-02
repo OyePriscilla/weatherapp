@@ -55,7 +55,7 @@ exports[`<Header /> renders correctly 1`] = `
         "color": "#fff",
         "fontSize": "18px",
         "marginLeft": "130px",
-        "marginRight": "150px",
+        "marginRight": "20px",
       }
     }
   >
