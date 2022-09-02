@@ -1,0 +1,50 @@
+.wrapper {
+  background-color: rgb(30, 6, 94);
+}
+
+body {
+  background-color: rgb(30, 6, 94);
+  margin: auto auto;
+  overflow-x: hidden;
+}
+
+.cityLink {
+  color: #fff;
+  display: block;
+  text-align: right;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 25px;
+  color: #fff;
+  border: 1px solid rgb(206, 197, 197);
+}
+
+.detail:nth-child(odd) {
+  background-color: rgb(59, 22, 158);
+}
+
+.detail span {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.cityHeader {
+  margin: 0;
+}
+
+input {
+  display: flex;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  margin: 10px auto;
+}

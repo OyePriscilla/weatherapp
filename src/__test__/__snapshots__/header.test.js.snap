@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "border": "1px solid rgb(206, 197, 197)",
+      "display": "flex",
+      "justifyContent": "space-between",
+      "margin": "0 auto",
+      "padding": "0 20px",
+      "width": "95%",
+    }
+  }
+>
+  <nav>
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": "38px",
+          "marginLeft": "10px",
+        }
+      }
+    >
+      <i
+        className="fa fa-angle-left"
+        style={
+          Object {
+            "width": "20%",
+          }
+        }
+      />
+    </a>
+  </nav>
+  <h2
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": "18px",
+        "width": "3%",
+      }
+    }
+  >
+    WEATHER
+  </h2>
+  <div
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": "18px",
+        "marginLeft": "130px",
+        "marginRight": "20px",
+      }
+    }
+  >
+    <i
+      className="fa fa-microphone"
+      style={
+        Object {
+          "marginRight": "2px",
+        }
+      }
+    />
+    <i
+      className="fa fa-cog"
+    />
+  </div>
+</div>
+`;

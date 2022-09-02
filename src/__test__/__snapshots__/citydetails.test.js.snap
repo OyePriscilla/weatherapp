@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Citydetails should render 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <input
+    onChange={[Function]}
+    placeholder="Search Cities in Nigeria"
+    type="text"
+  />
+  <div
+    style={
+      Object {
+        "width": "98%",
+      }
+    }
+  />
+</div>
+`;
