@@ -5,9 +5,11 @@ exports[`<Header /> renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
+      "border": "3px solid rgb(206, 197, 197)",
       "display": "flex",
       "justifyContent": "space-between",
       "padding": "0 20px",
+      "width": "100%",
     }
   }
 >
@@ -21,6 +23,7 @@ exports[`<Header /> renders correctly 1`] = `
         Object {
           "color": "#fff",
           "fontSize": "48px",
+          "marginLeft": "30px",
         }
       }
     >
@@ -39,5 +42,27 @@ exports[`<Header /> renders correctly 1`] = `
   >
     Weather App
   </h2>
+  <div
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": "28px",
+        "marginLeft": "130px",
+        "marginRight": "150px",
+      }
+    }
+  >
+    <i
+      className="fa fa-microphone"
+      style={
+        Object {
+          "marginRight": "10px",
+        }
+      }
+    />
+    <i
+      className="fa fa-cog"
+    />
+  </div>
 </div>
 `;

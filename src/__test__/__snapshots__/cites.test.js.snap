@@ -1,18 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Test for City should render 1`] = `
-<div
-  style={Object {}}
->
-  <h2
+Array [
+  <input
+    onChange={[Function]}
+    placeholder="Search Cities in Nigeria"
+    type="text"
+  />,
+  <div
     style={
       Object {
-        "color": "#fff",
-        "marginLeft": "20px",
+        "display": "grid",
+        "gridTemplateColumns": "1fr 1fr",
+        "marginTop": "20px",
+        "padding": "0px 150px",
       }
     }
-  >
-    List of Cities in Nigeria
-  </h2>
-</div>
+  />,
+]
 `;
