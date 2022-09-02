@@ -12,8 +12,8 @@ Array [
       Object {
         "display": "grid",
         "gridTemplateColumns": "1fr 1fr",
-        "marginTop": "20px",
-        "padding": "0px 150px",
+        "margin": "0 auto",
+        "width": "98%",
       }
     }
   />,
